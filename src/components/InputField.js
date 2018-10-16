@@ -1,6 +1,4 @@
 import React from 'react';
-import { calculateLeastAmountOfStrides } from './effortCalculator'
-
 
 class InputField extends React.Component {
     constructor(props) {
