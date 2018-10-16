@@ -9,7 +9,6 @@ class App extends React.Component {
         return (
             <div className="App">
                 <InputField />
-                <h1>{this.state}</h1>
             </div>
         );
     }
