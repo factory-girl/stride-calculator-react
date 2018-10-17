@@ -49,10 +49,23 @@ class StrideCalculator extends React.Component {
     render() {
         return (
             <form>
-                <input type="text" name="flights" value={this.state.flights} onChange={this.handleChange} />
-                <input type="text" name="stepsPerStride" value={this.state.stepsPerStride} onChange={this.handleChange} />
-                <input type="submit" value="Submit" onClick={this.handleSubmit} />
-                <h1>{this.state.leastNumberOfStrides}</h1>
+                <label>Flights:
+                    <input type="text"
+                           name="flights"
+                           value={this.state.flights}
+                           onChange={this.handleChange} />
+                </label>
+                <label>Steps per stride:
+                    <input type="text"
+                           name="stepsPerStride"
+                           value={this.state.stepsPerStride}
+                           onChange={this.handleChange} />
+                </label>
+                <input type="submit"
+                       value="Submit"
+                       onClick={this.handleSubmit} />
+
+                <h1>Least number of strides: {this.state.leastNumberOfStrides}</h1>
             </form>
 
         );
