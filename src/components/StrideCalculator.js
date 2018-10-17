@@ -1,6 +1,6 @@
 import React from 'react';
 
-class InputField extends React.Component {
+class StrideCalculator extends React.Component {
     constructor(props) {
         super(props);
         this.state = {flights: {}, stepsPerStride: 0, leastNumberOfStrides: 0};
@@ -59,4 +59,4 @@ class InputField extends React.Component {
     }
 }
 
-export default InputField;
+export default StrideCalculator;

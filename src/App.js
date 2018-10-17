@@ -1,5 +1,5 @@
 import React from 'react';
-import InputField from './components/InputField';
+import StrideCalculator from './components/StrideCalculator';
 
 import './App.css';
 
@@ -8,7 +8,7 @@ class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <InputField />
+                <StrideCalculator />
             </div>
         );
     }
