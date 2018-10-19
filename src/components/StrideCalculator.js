@@ -3,11 +3,10 @@ import React from 'react';
 class StrideCalculator extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {flights: {}, stepsPerStride: 0, leastNumberOfStrides: 0};
+        this.state = {flights: "", stepsPerStride: 0, leastNumberOfStrides: 0};
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
-        this.effortCalculator = this.effortCalculator.bind(this);
     }
 
     handleChange(event) {
